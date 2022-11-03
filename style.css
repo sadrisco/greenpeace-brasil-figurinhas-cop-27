@@ -11,6 +11,10 @@ body {
   align-items: center;
 }
 
+.main-title {
+  font-size: 2em;
+}
+
 header {
   width: 100%;
   padding-bottom: 25px;
@@ -28,6 +32,6 @@ header {
 }
 
 .main-text {
-  font-size: 12px;
+  font-size: 1em;
   margin-bottom: 60px;
 }
