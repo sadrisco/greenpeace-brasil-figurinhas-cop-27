@@ -1,0 +1,33 @@
+html,
+body {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header {
+  width: 100%;
+  padding-bottom: 25px;
+  flex-direction: column;
+}
+
+#figurinha {
+  max-width: 40vh ;
+}
+
+#app-logo {
+  max-width: 200px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.main-text {
+  font-size: 12px;
+  margin-bottom: 60px;
+}
