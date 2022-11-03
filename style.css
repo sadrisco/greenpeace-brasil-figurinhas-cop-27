@@ -22,7 +22,8 @@ header {
 }
 
 #figurinha {
-  max-width: 40vh ;
+  max-width: 50vh;
+  padding-top: 5vh;
 }
 
 #app-logo {
@@ -33,5 +34,15 @@ header {
 
 .main-text {
   font-size: 1em;
-  margin-bottom: 60px;
+}
+
+@media screen and (max-width: 600px) {
+  .main-text {
+    font-size: 20px;
+    margin-bottom: 60px;
+  }
+  .main-title {
+    font-size: 3em;
+  }
+  
 }
