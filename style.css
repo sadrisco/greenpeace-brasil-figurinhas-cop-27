@@ -1,19 +1,22 @@
 body {
   background-color: #fbea23 !important;
-  width: 100%;
 }
 
 .app-logo {
-  max-width: 400px;
+  max-width: 200px;
   margin-top: 20px;
   margin-bottom: 40px;
   margin-left: auto;
   margin-right: auto;
 }
 
+.image {
+  height: 100%;
+}
+
 #figurinha {
   max-width: 50vh;
-  padding-top: 5vh;
+  margin-top: 7vh;
   border-radius: 10px;
   margin-left: auto;
   margin-right: auto;
@@ -21,28 +24,22 @@ body {
 }
 
 .main-text p {
-  font-size: 38px;
+  font-size: 1em;
   text-align: center;
   margin-top: -10px;
   font-family: Roboto;
 }
 
 .main-title {
-  font-size: 2.5em;
+  font-size: 1.2em;
   text-align: center;
   font-family: Roboto;
 }
 
 @media screen and (min-width: 601px) {
-
 }
 
 @media screen and (max-width: 600px) {
-  .main-text h1 {
-    font-size: 40px;
-    margin-bottom: 60px;
-  }
-
   #figurinha {
     max-width: 90%;
   }
