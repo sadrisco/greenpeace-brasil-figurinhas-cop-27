@@ -1,5 +1,6 @@
 body {
   background-color: #fbea23 !important;
+  font-family: "Open Sans";
 }
 
 .app-logo {
@@ -8,10 +9,6 @@ body {
   margin-bottom: 40px;
   margin-left: auto;
   margin-right: auto;
-}
-
-.image {
-  height: 100%;
 }
 
 #figurinha {
@@ -26,14 +23,13 @@ body {
 .main-text p {
   font-size: 1em;
   text-align: center;
-  margin-top: -10px;
-  font-family: Roboto;
 }
 
 .main-title {
   font-size: 1.2em;
   text-align: center;
-  font-family: Roboto;
+  margin-top: 80px;
+  font-weight: 600;
 }
 
 @media screen and (min-width: 601px) {
@@ -42,5 +38,8 @@ body {
 @media screen and (max-width: 600px) {
   #figurinha {
     max-width: 90%;
+  }
+  .main-title {
+    font-size: 1em;
   }
 }
