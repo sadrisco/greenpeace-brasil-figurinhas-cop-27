@@ -1,3 +1,7 @@
+html {
+  overflow-y:scroll;
+}
+
 body {
   background-color: #fbea23 !important;
   font-family: "Open Sans";
@@ -5,6 +9,12 @@ body {
 
 body a {
   text-decoration: none;
+}
+
+figcaption {
+  color: #010306 !important;
+  text-align: center;
+  margin-top: 1em;
 }
 
 .app-logo {
@@ -65,41 +75,38 @@ body a {
   border-radius: 15px;
   font-size: 1.3em;
   color: #fff;
-  font-weight: 500; 
-  transition: all .2s ease-in-out; 
+  font-weight: 500;
+  transition: all 0.2s ease-in-out;
 }
 
 .button:hover {
   transform: scale(1.1);
 }
 
-.gallery-row  {
-  display: block;
-  margin-right: auto;
-  margin-left: auto;
-}
-
-.gallery-item {
-  padding: 0px !important;
-}
-
-.gallery-item:hover {
-  border: 1px solid #777;
-}
-
-.gallery-item img {
-  width: 100%;
-  height: auto;
-}
-
-div.desc {
-  padding: 15px;
-  text-align: center;
-}
-
 .bold {
   font-weight: 600;
 }
+
+
+.close {
+  font-size: 1.5rem;
+}
+
+.col-12 img {
+  opacity: 0.7;
+  cursor: pointer;
+  margin: 2rem;
+  width: 100%;
+}
+
+.item img:hover {
+  opacity: 0.85;
+}
+
+.portfolio-item .item{
+	margin-bottom:10px;
+}
+
 
 @media screen and (max-width: 600px) {
   #figurinha {
