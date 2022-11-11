@@ -118,6 +118,14 @@ figcaption {
   height: 40px;
 }
 
+.figurinha-template {
+  width: 100%;
+}
+
+.figure-cta {
+  margin-bottom: 3em;
+}
+
 
 @media screen and (max-width: 600px) {
   #figurinha {
