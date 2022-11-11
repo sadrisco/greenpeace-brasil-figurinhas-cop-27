@@ -11,10 +11,15 @@ body a {
   text-decoration: none;
 }
 
+.figure-caption {
+  font-size: 1.1em !important;
+}
+
 figcaption {
   color: #010306 !important;
   text-align: center;
   margin-top: 1em;
+  font-family: "Open sans";
 }
 
 .app-logo {
@@ -45,10 +50,12 @@ figcaption {
   margin-top: 40px;
   font-weight: 700;
   margin-bottom: -30px;
+  margin-left: 1em;
+  margin-right: 1em;
 }
 
 .main-text p {
-  font-size: 1.2em;
+  font-size: 1.4em;
   font-weight: 300;
   line-height: 1.2em;
   margin-left: auto;
@@ -77,9 +84,9 @@ figcaption {
   margin-bottom: 40px;
   margin-top: 40px;
   background-color: #4dad36;
-  max-width: 220px;
+  max-width: 300px;
   height: 70px;
-  padding-top: 1em;
+  padding-top: 2em;
   border-radius: 15px;
   font-size: 1.3em;
   color: #fff;
@@ -125,12 +132,19 @@ figcaption {
 
 .figure-cta {
   margin-bottom: 3em;
-  font-size: 1.3em !important;
+  font-size: 1.2em !important;
   padding: 1em;
+  margin-left: 20%;
+  margin-right: 20%;
 }
 
 .bg-green-br {
   background-color: #73ad43;
+}
+
+.cta-title {
+  font-size: 1.8em;
+  line-height: 1.2em;
 }
 
 
@@ -142,17 +156,24 @@ figcaption {
     font-size: 1em;
   }
   .main-text p {
-    font-size: 1em;
+    font-size: 1.3em;
     font-weight: 300;
     margin: 1em;
     width: inherit;
   }
-  .button {
-    max-width: 180px;
+  .help-text p {
     font-size: 1em;
+  }
+  .button {
+    max-width: 300px;
+    font-size: 1.3em;
     padding-top: 2em;
   }
   .figurinha-template {
     max-width: 100%;
+  }
+  .figure-cta {
+    margin-right: inherit;
+    margin-left: inherit;
   }
 }
